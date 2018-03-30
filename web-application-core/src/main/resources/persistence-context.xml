@@ -15,7 +15,7 @@
     </bean>
 
     <jpa:repositories repository-impl-postfix="Impl"
-                      base-package="it.andrea.balasso.web.application.core.repository"
+                      base-package="it.andrea.balasso.web.application.common.repository"
                       transaction-manager-ref="springProjectTxManager"
                       entity-manager-factory-ref="springProjectEntityManagerFactory"/>
 
