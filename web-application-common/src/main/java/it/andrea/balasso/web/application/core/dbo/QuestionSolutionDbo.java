@@ -10,7 +10,7 @@ public class QuestionSolutionDbo {
 
     private QuestionDbo questionDbo;
 
-    private List<QuestionSolutionAcceptance> questionSolutionAcceptanceList;
+    private List<QuestionSolutionAcceptanceDbo> questionSolutionAcceptanceDboList;
 
     public Long getId() {
         return id;
@@ -36,11 +36,11 @@ public class QuestionSolutionDbo {
         this.questionDbo = questionDbo;
     }
 
-    public List<QuestionSolutionAcceptance> getQuestionSolutionAcceptanceList() {
-        return questionSolutionAcceptanceList;
+    public List<QuestionSolutionAcceptanceDbo> getQuestionSolutionAcceptanceDboList() {
+        return questionSolutionAcceptanceDboList;
     }
 
-    public void setQuestionSolutionAcceptanceList(List<QuestionSolutionAcceptance> questionSolutionAcceptanceList) {
-        this.questionSolutionAcceptanceList = questionSolutionAcceptanceList;
+    public void setQuestionSolutionAcceptanceDboList(List<QuestionSolutionAcceptanceDbo> questionSolutionAcceptanceDboList) {
+        this.questionSolutionAcceptanceDboList = questionSolutionAcceptanceDboList;
     }
 }

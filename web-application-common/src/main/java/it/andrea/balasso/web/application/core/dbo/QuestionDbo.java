@@ -14,7 +14,7 @@ public class QuestionDbo {
 
     private List<QuestionTagDbo> questionTagDboList;
 
-    private List<QuestionComment> questionCommentList;
+    private List<QuestionCommentDbo> questionCommentDboList;
 
     private List<QuestionSolutionDbo> questionSolutionDboList;
 
@@ -58,12 +58,12 @@ public class QuestionDbo {
         this.questionTagDboList = questionTagDboList;
     }
 
-    public List<QuestionComment> getQuestionCommentList() {
-        return questionCommentList;
+    public List<QuestionCommentDbo> getQuestionCommentDboList() {
+        return questionCommentDboList;
     }
 
-    public void setQuestionCommentList(List<QuestionComment> questionCommentList) {
-        this.questionCommentList = questionCommentList;
+    public void setQuestionCommentDboList(List<QuestionCommentDbo> questionCommentDboList) {
+        this.questionCommentDboList = questionCommentDboList;
     }
 
     public List<QuestionSolutionDbo> getQuestionSolutionDboList() {
