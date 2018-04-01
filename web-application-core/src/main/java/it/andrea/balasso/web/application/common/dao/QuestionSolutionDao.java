@@ -1,5 +1,6 @@
 package it.andrea.balasso.web.application.common.dao;
 
+import it.andrea.balasso.web.application.common.dbo.QuestionSolutionAcceptanceDbo;
 import it.andrea.balasso.web.application.common.dbo.QuestionSolutionDbo;
 import org.springframework.stereotype.Repository;
 
@@ -12,7 +13,7 @@ public class QuestionSolutionDao implements IQuestionSolutionDao {
     }
 
     @Override
-    public QuestionSolutionDbo insertOrUpdateQuestionSolutionAcceptance(QuestionSolutionDbo questionSolutionAcceptanceDto) {
+    public QuestionSolutionAcceptanceDbo insertOrUpdateQuestionSolutionAcceptance(QuestionSolutionAcceptanceDbo questionSolutionAcceptanceDto) {
         return null;
     }
 }
