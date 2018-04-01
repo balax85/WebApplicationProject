@@ -21,13 +21,13 @@ public class QuestionSolutionController {
         this.questioneInterviewService = questioneInterviewService;
     }
 
-    @RequestMapping(method = RequestMethod.POST,
+    @RequestMapping(value = "/new", method = RequestMethod.POST,
             consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public QuestionSolutionDto insertOrUpdateSolutionToQuestion(@RequestBody QuestionSolutionDto questionSolutionDto) {
         return null;
     }
 
-    @RequestMapping(method = RequestMethod.POST,
+    @RequestMapping(value = "/acceptance", method = RequestMethod.POST,
             consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public QuestionSolutionAcceptanceDto insertOrUpdateQuestionSolutionAcceptance(@RequestBody QuestionSolutionAcceptanceDto questionSolutionAcceptanceDto) {
         return null;
