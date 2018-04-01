@@ -17,7 +17,7 @@ public class CompanyField {
     private Field field;
 
     @ManyToOne
-    @JoinColumn(name = "ID_FIELD", referencedColumnName = "ID")
+    @JoinColumn(name = "ID_COMPANY", referencedColumnName = "ID")
     private Company company;
 
     public Long getId() {

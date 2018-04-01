@@ -79,8 +79,8 @@ public class DatabaseConfiguration {
 
         Properties props = new Properties();
         props.setProperty("hibernate.hbm2ddl.auto", "none");
-        props.setProperty("hibernate.show_sql", environment.getProperty("spe.hibernate.showsql"));
-        props.setProperty("hibernate.format_sql", environment.getProperty("spe.hibernate.formatsql"));
+        props.setProperty("hibernate.show_sql", environment.getProperty("wap.hibernate.showsql"));
+        props.setProperty("hibernate.format_sql", environment.getProperty("wap.hibernate.formatsql"));
 
         entityManager.setJpaProperties(props);
         return entityManager;

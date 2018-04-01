@@ -20,7 +20,7 @@ public class QuestionSolution {
     @JoinColumn(name = "ID_QUESTION", referencedColumnName = "ID")
     private Question question;
 
-    @OneToMany(mappedBy = "tag", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "questionSolution", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<QuestionSolutionAcceptance> questionSolutionAcceptanceList;
 
     public Long getId() {
