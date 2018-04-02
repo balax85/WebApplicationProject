@@ -1,0 +1,13 @@
+Funzionalità da implementare
+
+Divido le funzionalità in pagine
+
+Pagina prima con la lista di tutte le domande
+    - rest per cercare tutte le domande con la relativa soluzione se c'è
+Pagina per inserire/modificare una intervista
+    - rest per inserire/modificare una intervista
+Pagina per cercare interviste
+    - rest per cercare una intervista
+Pagina di dettaglio di una domanda
+    - rest per caricare una domanda, ocn tutte le informazioni ad essa collegata
+
